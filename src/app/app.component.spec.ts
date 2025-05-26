@@ -14,16 +14,18 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'signals-store-tasks' title`, () => {
+  it(`should have the 'ngrx-signal-store-tasks' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('signals-store-tasks');
+    expect(app.title).toEqual('ngrx-signal-store-tasks');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, signals-store-tasks');
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Hello, ngrx-signal-store-tasks'
+    );
   });
 });

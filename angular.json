@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "signals-store-tasks": {
+    "signal-store-tasks": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/signals-store-tasks",
+            "outputPath": "dist/signal-store-tasks",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -36,7 +36,7 @@
             ],
             "scripts": [],
             "server": "src/main.server.ts",
-            "outputMode": "server",
+            "prerender": true,
             "ssr": {
               "entry": "src/server.ts"
             }
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "signals-store-tasks:build:production"
+              "buildTarget": "signal-store-tasks:build:production"
             },
             "development": {
-              "buildTarget": "signals-store-tasks:build:development"
+              "buildTarget": "signal-store-tasks:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -103,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "cfae10e1-6a1a-486c-ab17-5e73aa2a2def"
   }
 }

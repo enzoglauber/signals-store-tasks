@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Estudar Angular Signals 3",
+      "description": "Revisar conceitos e práticas com Signal Store",
+      "completed": true,
+      "createdAt": "2025-05-10T09:30:00.000Z",
+      "updatedAt": "2025-05-10T09:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Implementar CRUD com NgRx",
+      "description": "Finalizar a POC de tarefas usando NgRx com Signal Store",
+      "completed": true,
+      "createdAt": "2025-05-11T10:15:00.000Z",
+      "updatedAt": "2025-05-12T08:45:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Testar Integração com json-server",
+      "description": "Verificar se o backend mock responde corretamente às chamadas HTTP",
+      "completed": false,
+      "createdAt": "2025-05-12T14:00:00.000Z",
+      "updatedAt": "2025-05-12T14:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Documentar arquitetura da aplicação",
+      "description": "Criar documentação com explicações dos módulos e stores",
+      "completed": false,
+      "createdAt": "2025-05-13T11:20:00.000Z",
+      "updatedAt": "2025-05-13T11:20:00.000Z"
+    }
+  ]
+}
