@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "signal-store-tasks": {
+    "signals-store-tasks": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/signal-store-tasks",
+            "outputPath": "dist/signals-store-tasks",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "signal-store-tasks:build:production"
+              "buildTarget": "signals-store-tasks:build:production"
             },
             "development": {
-              "buildTarget": "signal-store-tasks:build:development"
+              "buildTarget": "signals-store-tasks:build:development"
             }
           },
           "defaultConfiguration": "development"
